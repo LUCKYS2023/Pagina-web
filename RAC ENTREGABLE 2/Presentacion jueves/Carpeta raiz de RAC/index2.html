@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>RECAMBIOS AGRICOLAS CALAMOCHA</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">RECAMBIOS AGRICOLAS CALAMOCHA</p>
+            <nav>
+                <a href="#somos-rac">Quienes Somos</a>
+                <a href="#nuestros-productos">Nuestros productos</a>
+                <a href="#servicio">Servicio a domicilio</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <h1>COMPRA LOS MEJORES PRODUCTOS <br> AL MEJOR PRECIO </h1>
+        <button><a class="boton-8" href="mailto:lucasby6093@gmail.com">COMPRA YA</a></button>
+    </section>
+    
+    <section id="somos-rac">
+        <div class="conteiner">
+            
+            <div class="resumen"></div>
+            <h3>SOMOS R.A.C</h3>
+            <p>Somos RAC (Recambios agricolas calamocha), somos una empresa fundada hace mas de 50 años en la cual se llevan vendiendo recambios para maquinaria agricola y tractores durante todo ese tiempo. Hace 2 años que dejamos de vender tractores pero se puede hacer un favor y por encargo se puede seguir comprando. Nuestra sede y unica tienda esta ubicada en Calamocha, un pequeñito pueblo de Teruel el cual esta descentralizado y cada vez hay menos gente. Nos hemos tenido que apañar e innovar para que la tienda siga funcionando y ahora vendemos pienso para todo tipo de animales, vendemos pelet para las estufas y paquetes de 5kg para las estufas de leña, gallinas y pollos todos los lunes, vendemos naranjas y mandarinas en temporada y tambien flores y plantero para los huertos. Basicamente nos hemos tenido que adaptar a las necesidades y estamos muy comprometidos a que el mismo salga satisfecho asi que no tenga miedo en confiar en nosotros y compra nuestros productos.</p>
+        </div>
+    </section>
+    <br><br><br><br>
+    <body>  
+    <section id="nuestros-productos">
+        <div class="container">
+            <br><h2>NUESTROS PRODUCTOS</h2>
+            <section id="productos">
+                <div class="vertimg">
+                    <h3>Recambios</h3>
+                    <p>Tenemos una alta seleccion de recambios de todo tipo de maquinaria agricola para que ante cualquier problema mecanico de su tractor o cosechadora sea arreglado en la mayor brevedad posible.</p>    
+                    <button><a class="boton-1" href="mailto:lucasby6093@gmail.com">+ INFO</a></button>
+                    <button id="producto1" onclick="agregarAlCarrito('Producto 1', 10)">Agregar al carrito</button>
+                </div>
+                
+                <div class="vertimg">
+                    <h3>Pienso</h3>
+                    <p>Tenemos todo tipo de pienso para perros, gatos, pajaros, gallinas, conejos, cerdos... de todo tipo de animales para que sus mascotas coman lo mejor del mercado.</p>
+                    <button><a class="boton-2" href="mailto:lucasby6093@gmail.com">+ INFO</a></button>
+                    <button id="producto2" onclick="agregarAlCarrito('Producto 2', 20)">Agregar al carrito</button>
+                </div>
+                
+                <div class="vertimg">
+                    <h3>Plantero y flores</h3>
+                    <p>Tenemos todo tipo de plantas y flores exoticas para su amplia seleccion y disfrute para que decore su casa a su gusto y que le de el color que mas le guste.</p>
+                    <button><a class="boton-3" href="mailto:lucasby6093@gmail.com">+ INFO</a></button>
+                    <button id="producto3" onclick="agregarAlCarrito('Producto 3', 30)">Agregar al carrito</button>
+                </div>
+                
+                <div class="vertimg">
+                    <h3>Pelet y leña</h3>
+                    <p>Ahora en invierno que hace mucho tenemos de todo tipo de combustible para su estufa y se caliente de la mejor y mas barata forma posible.</p>
+                    <button><a class="boton-4" href="mailto:lucasby6093@gmail.com">+ INFO</a></button>
+                    <button id="producto4" onclick="agregarAlCarrito('Producto 4', 40)">Agregar al carrito</button>
+                </div>
+                <div class="vertimg">
+                    <h3>Gallinas y pollos</h3>
+                    <p>Las mejores gallinas ponedoras, pollos y variados a su amplia seleccion todos los lunes en nuetra tienda si quiere reservar dale al boton de abajo.</p>
+                    <button><a class="boton-5" href="mailto:lucasby6093@gmail.com">+ INFO</a></button>
+                    <button id="producto5" onclick="agregarAlCarrito('Producto 5', 50)">Agregar al carrito</button>
+                </div>
+                <div class="vertimg">
+                    <h3>Naranjas y mandarinas</h3>
+                    <p>Tenemos las mejores naranjas y mandarinas con mas jugo y mas sabrosas de Valencia traidas todas las semanas desde el campo hasta tu casa.</p>
+                    <button><a class="boton-6" href="mailto:lucasby6093@gmail.com">+ INFO</a></button>
+                    <button id="producto6" onclick="agregarAlCarrito('Producto 6', 60)">Agregar al carrito</button>
+                </div>
+                <div class="vertimg">
+                    <h3>Herramientas</h3>
+                    <p>Tenemos herramientas de todo tipo del tema mecanico hasta el tema de las plantas para podar arboles cortar el cesped etc.</p>
+                    <button><a class="boton-7" href="mailto:lucasby6093@gmail.com">+ INFO</a></button>
+                    <button id="producto7" onclick="agregarAlCarrito('Producto 7', 70)">Agregar al carrito</button>
+                </div>
+            <section id="carrito">
+                <h2>Carrito</h2>
+                <div id="itemsCarrito"></div>
+                <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+            </section>
+        </section>
+        </div>
+    </section>
+
+    <section id="ven-a-conocernos">
+        <h2>Ven a conocernos</h2>
+        <button><a class="boton-9" href="mailto:lucasby6093@gmail.com">¡YAAAA!</a></button>
+    </section>
+    
+    <div id="servicio">
+        
+        <h3>
+            <br>
+            <br>
+            <br>
+            <br>
+        </h3>
+    </div>
+
+    <div>
+        <h3>Nuestra tienda esta ubicada en un pueblo de Teruel llamada calamocha en la Calle Desvio nº26, la cual esta en la travesia principal del pueblo que la cruza.</h3><br>
+        <button><a class="boton-10" onclick href="http://localhost/Presentacion%20jueves/php/E1-Lucas%20Germes-Base%20Datos-24-01-2024/leer.php">Tu opinion nos importa</a></button>
+    </div>
+
+    <footer>
+        <div class="conteiner">
+            <p>&copy; Recambios Agricolas Calamocha 2023</p>
+        </div>
+    </footer>
+    
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="../js/script.js">
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,337 @@
+*{
+    box-sizing:border-box;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(112, 252, 252);
+}
+
+.boton-1{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30%;
+    border-radius: 15px;
+    color: #06f6ee;
+    display: flex;
+    background-image: url(../img/recambios.jpg);
+    background-size: cover;
+}
+
+.boton-1:hover{
+    background-color: #06f6ee;
+    color: #06f6ee;
+    transition: 0.3s ease;
+}
+
+.boton-2{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30%;
+    border-radius: 15px;
+    color: #06f6ee;
+    display: flex;
+    background-image: url(../img/pienso.jpg);
+    background-size: cover;
+}
+
+.boton-2:hover{
+    background-color: #06f6ee;
+    transition: 0.3s ease;
+}
+
+.boton-3{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30%;
+    border-radius: 15px;
+    color: #06f6ee;
+    display: flex;
+    background-image: url(../img/plantas.jpg);
+    background-size: cover;
+}
+
+.boton-3:hover{
+    background-color: #06f6ee;
+    transition: 0.3s ease;
+}
+
+.boton-4{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30%;
+    border-radius: 15px;
+    color: #06f6ee;
+    display: flex;
+    background-image: url(../img/pellet.jpg);
+    background-size: cover;
+}
+
+.boton-4:hover{
+    background-color: #06f6ee;
+    transition: 0.3s ease;
+}
+
+.boton-5{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30%;
+    border-radius: 15px;
+    color: #06f6ee;
+    display: flex;
+    background-image: url(../img/gallina.jpg);
+    background-size: cover;
+}
+
+.boton-5:hover{
+    background-color: #06f6ee;
+    transition: 0.3s ease;
+}
+
+.boton-6{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30%;
+    border-radius: 15px;
+    color: #06f6ee;
+    display: flex;
+    background-image: url(../img/naranjas.jpg);
+    background-size: cover;
+}
+
+.boton-6:hover{
+    background-color: #06f6ee;
+    transition: 0.3s ease;
+}
+
+.boton-7{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30%;
+    border-radius: 15px;
+    color: #06f6ee;
+    display: flex;
+    background-image: url(../img/herramientas.jpg);
+    background-size: cover;
+}
+
+.boton-7:hover{
+    background-color: #06f6ee;
+    transition: 0.3s ease;
+}
+
+.boton-8{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: hsl(234, 100%, 50%);
+    background-color: rgb(14, 238, 122);
+    
+}
+
+.boton-8:hover{
+    background-color: rgb(2, 2, 95);
+    transition: 0.3s ease;
+}
+
+
+.boton-9{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: hsl(234, 100%, 50%);
+    background-color: rgb(14, 238, 122);
+}
+
+.boton-9:hover{
+    background-color: rgb(2, 2, 95);
+    transition: 0.3s ease;
+}
+
+
+
+
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(112, 252, 252);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blue;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+header .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 61vh;
+    background-image:url("../img/tienda.jpg");
+}
+
+#hero h1{
+    color: rgb(0, 255, 102);
+    
+}
+
+
+#somos-rac h3{
+    color: blue;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#somos-rac.conteiner{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#somos-rac p{
+    color: rgb(0, 0, 0);
+}
+
+#nuestros-productos{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+#nuestros-productos .conteiner{
+    padding: 100px 0px;
+}
+
+#nuestros-productos h2{
+    margin-top: 0;
+    font-size: 3em;
+    color: black;
+    padding-top: 10%;
+}
+
+#nuestros-productos p{
+    font-size: 1.75em;
+}
+
+#nuestros-productos h3{
+    color: black;
+}
+
+
+
+#nuestros-productos .vertimg{
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding : 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+.vertimg{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+
+#ven-a-conocernos{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 30vh;
+
+}
+
+#ven-a-conocernos h2{
+    font-size: 5vw;
+}
+
+#ven-a-conocernos button{
+    font-size: 4vw;
+}
+
+#servicio{
+    background-image:url(../img/mapa.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 34%;
+    margin-top: 30%;
+}
+
+footer{
+    background-color: rgb(112, 252, 252);
+    padding-top: 8%;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer .conteiner{
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
